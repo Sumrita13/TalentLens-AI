@@ -62,7 +62,11 @@ npm run dev
 
 ## Initializing the Database
 
-Once all three services are running:
+**⚠️ Important Dataset Note:** Because the `candidates.jsonl` dataset is large (400MB+), it is not hosted in this GitHub repository. 
+1. **Download the Dataset:** https://drive.google.com/file/d/1-55B0lRLzudQ5wr3ttfX0zSKmH2lwCDG/view?usp=sharing
+2. **Place the file:** Once downloaded, place `candidates.jsonl` inside the `data/` folder at the root of the project.
+
+Once the dataset is in place and all three services are running:
 1. Open your browser to the Frontend URL (e.g., `http://localhost:5173`).
 2. Go to the **Intelligence** (Dashboard) tab.
 3. Click the **Init DB** button in the header. 
